@@ -1,0 +1,14 @@
+@import 'partiels/variables';
+
+
+p {
+    span {
+        color: rgb(143, 12, 19);
+        font-size: $taille;
+        &:hover {
+            color: $couleur;
+        }
+    }
+}
+
+//ceci est un commentaire caché

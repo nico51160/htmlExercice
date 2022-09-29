@@ -1,0 +1,9 @@
+p span {
+  color: rgb(143, 12, 19);
+  font-size: 4em;
+}
+p span:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
