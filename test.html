@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+    <legend>qui suis je</legend>
+<form action="post">
+
+<label for="name">name</label>
+<input type="text" id="name">
+<br>
+<label for="age">age</label>
+<input type="number" id="age">
+<br>
+<label for="tel">tel</label>
+<input type="tel" id="tel" required>
+</fieldset>
+<br>
+<label for="texte">commentez</label>
+<textarea id="texte"></textarea>
+<br>
+<input type="submit" value="ok">
+<br>
+_aimez vous coder ?
+<input type="radio" name="question" id="oui">
+<label for="oui">oui</label>
+<input type="radio" name="question" id="non">
+<label for="non">oui</label>
+<br>
+quelle ville vous voulez <br>
+<label for="check">oui</label>
+<input type="checkbox" id="check">
+
+<br>
+qui etes vous
+<select>
+    <optgroup label="full name">
+<option>fifi</option>
+<option>fanfan</option>
+<option>lulu</option>
+</optgroup>
+
+<optgroup label="name">
+    <option>fi</option>
+    <option>fan</option>
+    <option>lu</option>
+    </optgroup>
+</select>
+<br>
+<label for="cherche">rechercher</label>
+<input type="search" id="cherche" list="pizzas">
+
+<datalist id="pizzas">
+<option value="calzone"></option>
+<option value="margarita"></option>
+<option value="royale"></option>
+
+</datalist>
+
+<label for="son">son</label>
+<input type="range" id="son" value="20" max="50" step="3" >
+<br>
+<input type="reset" value="effacer">
+
+
+</form>
+
+<br>
+/*tabindex=""*/ ordre des questions
+/*disabled*/ dans le fieldset pour desactiver la zone
+/*pattern="[0-9] {10}"*/ pour tel
+
+
+
+</body>
+</html>
