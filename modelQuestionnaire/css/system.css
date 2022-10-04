@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    }
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 90%;
+    border-radius: 15px;
+    background-color: rgb(60, 60, 146);
+    outline: none;
+    height: 20px;
+
+}
+
+input[type="text"]:hover, input[type="tel"]:hover {
+   
+    background-color: pink;
+    outline: red;
+    
+    
+
+}
+
+.submit{
+    text-align: center;
+}
+
+.text{
+    padding-left: 15px;
+}
