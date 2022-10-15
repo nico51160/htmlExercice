@@ -1,0 +1,12 @@
+body {
+    --color: red;
+    --size: 15px;
+    --couleurparagraphe : green;
+
+}
+
+
+p {
+    color: var(--color);
+    width: calc(var(--size)*5);
+}
